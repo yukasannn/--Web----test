@@ -1,11 +1,50 @@
 body {
-  font-family: 'Shippori Mincho', serif;
+  font-family: "Shippori Mincho", serif;
 }
 
 header {
- font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
+}
+
+body {
+  font-size: 15px;
+}
+
+span {
+  font-size: 30px;
+  color: #00a9ff;
 }
 
 strong {
-  font-size: 50px;
+  font-size: 30px;
+}
+
+.main-content {
+  background-image: url(img\fv.png);
+}
+
+.container {
+  display: flex;
+}
+
+.border-radius {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #ff2599;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.container-text {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+ 
+text-span {
+  color:rgb(108, 226, 255);
+  font-size: 15px;
 }
