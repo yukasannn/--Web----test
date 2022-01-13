@@ -1,28 +1,57 @@
 body {
+  width: 1300px;
   font-family: "Shippori Mincho", serif;
 }
 
 header {
   font-family: "Amatic SC", cursive;
+  height: 70px;
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: right;
+  color: #55bbbb;
 }
 
 body {
-  font-size: 15px;
+  font-size: 40px;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
 }
 
 span {
-  font-size: 30px;
-  color: #00a9ff;
+  font-size: 64px;
+  color: #55bbbb;
 }
 
 strong {
-  font-size: 30px;
+  font-size: 64px;
 }
 
-.main-content {
-  background-image: url(img\fv.png);
+.main-content-fv {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/fv.png);
+  height: 500px;
+  position: relative;
 }
 
+.main-content-pr {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+}
+
+.coler
+.main-content-title {
+  margin-bottom: 20px;
+}
 .container {
   display: flex;
 }
@@ -43,8 +72,7 @@ strong {
   margin-left: 20px;
   font-size: 20px;
 }
- 
-text-span {
-  color:rgb(108, 226, 255);
-  font-size: 15px;
+
+.answer {
+  background-color: #00a9ff;
 }
