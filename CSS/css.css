@@ -3,6 +3,7 @@ body {
   font-family: "Shippori Mincho", serif;
 }
 
+/*ヘッダー*/
 header {
   font-family: "Amatic SC", cursive;
   height: 70px;
@@ -15,48 +16,47 @@ h1 {
   color: #55bbbb;
 }
 
-body {
-  font-size: 40px;
-}
-
+/*メイン*/
 main {
   width: 1000px;
   margin: 0 auto;
 }
 
-span {
-  font-size: 64px;
-  color: #55bbbb;
-}
-
-strong {
-  font-size: 64px;
-}
-
-.main-content-fv {
+/*ファーストビュー*/
+.fv {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../img/fv.png);
   height: 500px;
+  width: 1150px;
   position: relative;
 }
 
-.main-content-pr {
+/*ファーストビューテキスト*/
+.fv-text {
   position: absolute;
   top: 20%;
-  left: 10px;
+  left: 20px;
+}
+.fv-text1 {
+  font-size: 46px;
 }
 
-.coler
-.main-content-title {
-  margin-bottom: 20px;
-}
-.container {
-  display: flex;
+.fv-text1 span{
+  color: #55bbbb;
+  font-size: 64px;
 }
 
-.border-radius {
+.fv-text1 strong {
+  font-size: 64px;
+}
+
+.fv-text2 {
+  
+}
+
+.border-radius1 {
   width: 100px;
   height: 100px;
   line-height: 100px;
@@ -65,6 +65,26 @@ strong {
   color: #fff;
   text-align: center;
   font-size: 30px;
+  margin-top: 50px;
+}
+
+.fv-text2-price {
+  width: 500px;
+  color: #55bbbb;
+}
+
+.border-radius2 {
+  width: 500px;
+  height: 70px;
+  background-color: #ff2599;
+  border-radius: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+.p-text{
+  transform: rotate(45deg);
 }
 
 .container-text {
